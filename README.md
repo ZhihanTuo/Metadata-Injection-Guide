@@ -11,6 +11,8 @@ You must have [FFmpeg](https://ffmpeg.org/download.html) installed and accessibl
 The basic command structure is:
 `ffmpeg -i "input.mp4" -c copy [METADATA_TAGS] "output.mp4"`
 
+(**PLEASE REPLACE `"input.mp4"` and `"output.mp4"` with the names of your original file and new file**)
+
 The `-c copy` argument is crucial. It copies the video and audio streams without re-encoding, so it's extremely fast and loses no quality.
 
 ---
